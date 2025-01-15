@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            margin-bottom: 20px;
+        }
+        #btn {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        #container  {
+             max-width: 1200px;
+             width:100%;
+             margin: 50px auto;
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+             gap:30px
+        }
+        .card{
+            width:30%;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="" id="form">
+        <input type="text" placeholder="Enter name" id="name">
+        <input type="number" placeholder="Enter price" id="price">
+        <input type="text" placeholder="Enter desc" id="description">
+        <button id="button">yuborish</button>
+    </form>
+    <button id="btn">Olish</button>
+    <div id="container">
+        
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
