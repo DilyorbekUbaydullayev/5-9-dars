@@ -70,7 +70,7 @@ function task3(){
     const filterButton = document.getElementById("filter");
     const resetButton = document.getElementById("reset");
 
-    // Rasmlarni gridga qo'shish
+    
     images.forEach(image => {
         const imageCard = document.createElement("div");
         imageCard.className = "image-card";
@@ -89,7 +89,7 @@ function task3(){
         imageGrid.appendChild(imageCard);
     });
 
-    // Filtrlash funksiyasi
+ 
     filterButton.addEventListener("click", () => {
         const query = searchInput.value.trim().toLowerCase();
         const imageCards = document.querySelectorAll(".image-card");
@@ -103,7 +103,7 @@ function task3(){
         });
     });
 
-    // Qayta ko'rsatish funksiyasi
+  
     resetButton.addEventListener("click", () => {
         searchInput.value = "";
         const imageCards = document.querySelectorAll(".image-card");
